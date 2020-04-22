@@ -4,7 +4,7 @@ def find_even_values(src)
   
   x = 0 
   while x < src.count[i] do 
-    puts src.count[i][x]
+    puts src[i][x]
   x += 1
   end
   i += 1 
