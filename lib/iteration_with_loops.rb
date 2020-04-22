@@ -4,7 +4,10 @@ def find_even_values(src)
   
   x = 0 
   while x < src[i].length do 
-    puts src[i][x]
+    current = src[i][x]
+    if (current % 2 == 0)
+      puts current
+    end
   x += 1
   end
   i += 1 
